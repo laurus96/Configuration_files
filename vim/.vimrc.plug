@@ -1,0 +1,28 @@
+call plug#begin('~/.vim/plugged')
+
+" Airline 
+" Add a status line for VIM
+Plug 'vim-airline/vim-airline' 
+
+" Airline theme
+" Add themes support to Airline
+Plug 'vim-airline/vim-airline-themes'
+
+
+" Vim Devicons
+" Adds icons to vim, remember so set encding=UTF-8 in vim
+Plug 'ryanoasis/vim-devicons'
+
+" Vim fugitive
+" Add Git support to vim
+Plug 'tpope/vim-fugitive'
+
+" Nerdtree
+" Add a tree explorer to vim
+Plug 'preservim/nerdtree'
+
+" Vim Commentary
+" use gcc and gc to comment multiple line or a line
+Plug 'tpope/vim-commentary'
+
+call plug#end()
